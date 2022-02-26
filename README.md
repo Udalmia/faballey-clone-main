@@ -41,7 +41,7 @@ Prerequisites
 - Carousel & Search Results
 - Sorting on product Page
 - Add to cart
-- Apply the coupon on your cart 
+- Apply the coupon on your cart
 - Purchase the Product- 
 - Fullscreen mode
 
