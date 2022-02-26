@@ -6,6 +6,8 @@ FabAlley is an online fashion store. Launched in 2012, FabAlley covers everythin
 
 ![faballey](https://user-images.githubusercontent.com/53556482/153560974-2ee2f508-b57a-4af8-87be-17139579613d.png)
 
+## Demo
+<!-- ![unit4Short gif](https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif) -->
 
 
 ## Installation and Run Locally
@@ -14,6 +16,14 @@ Prerequisites
 
 - VS Code
   Installation
+- Clone the repository
+  Git Clone - https://github.com/Akhilg-02/faballey-clone-main.git
+
+```bash
+ git clone https://github.com/Sachi4496/faballey-clone.git
+```
+#### `npm i`
+#### `npm run server`
 
 
 ## Screenshots
