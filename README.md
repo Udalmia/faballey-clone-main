@@ -2,7 +2,7 @@
 
 [faballey.com](https://www.faballey.com/)
 ## About FabAlley:
-FabAlley is an online fashion store. Launched in 2012, FabAlley covers everything from the glitziest party dresses, relaxed vacation wear, trendy casual wear to statement accessories. The brand’s products are inspired from trends around the world - global runway and fast fashion trends that have found favor in India and Internationally. FabAlley understands the evolving western-wear needs unique to Indian women and focuses on providing 360 degree wardrobe solutions covering all facets and occasions.
+FabAlley is an online fashion store. Launched in 2012, FabAlley covers everything from the glitziest party dresses, relaxed vacation wear, trendy casual wear to statement accessories. The brand’s products are inspired from trends around the world - global runway and fast fashion trends that have found favor in India and Internationally. Faballey understands the evolving western-wear needs unique to Indian women and focuses on providing 360 degree wardrobe solutions covering all facets and occasions.
 
 ![faballey](https://user-images.githubusercontent.com/53556482/153560974-2ee2f508-b57a-4af8-87be-17139579613d.png)
 
@@ -78,15 +78,15 @@ Prerequisites
 
 
 ## Authors
--  [Sachidanand Pradhan](https://github.com/Sachi4496)
+- [Soumili Chatterjee](https://github.com/Sou156)
 
-- [Bala Murugan](https://github.com/ravi-bala13)
+- [Abhishek Soni](https://github.com/abhi270794)
 
-- [Mohit Solanki](https://github.com/mohitsolanki71)
+- [Akhil Gupta](https://github.com/Akhilg-02)
 
-- [Prajwal Namdeo Rathod](https://github.com/prarathod)
+- [Utkarsh dalmia](https://github.com/Udalmia)
 
-- [Shivam Singh](https://github.com/ShivamSinghhh)
+- [ANURUDDH](https://github.com/HelloMoto069)
 
 
 
