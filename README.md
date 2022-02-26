@@ -1,4 +1,4 @@
-# faballey-clone
+# Faballey-clone
 
 [faballey.com](https://www.faballey.com/)
 ## About FabAlley:
