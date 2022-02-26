@@ -24,7 +24,12 @@ export const Nav1 = () => {
     setIsModalVisible(false);
   };
 
-  // signup form
+
+
+
+  // SIGN.UP FORM
+
+
 
   const initialValues = { email: "", password: "" };
   const [formValues, setFormValues] = useState(initialValues);
@@ -58,7 +63,13 @@ export const Nav1 = () => {
       setLoginClick(loginClick + 1);
     }
   }, [formErrors]);
-  // login
+
+
+
+
+  // LOG.IN FORM
+
+
 
   const handleSubmitss = (e) => {
     e.preventDefault();
@@ -68,11 +79,20 @@ export const Nav1 = () => {
 
   const [loginBtn, setLoginBtn] = useState(false);
 
+
+
+
   // const [ChangeNavbar, setNavbar] = useState(false);
   //   ******************* Bals code ********
+
+
+
   const userId = useSelector((state) => state.userId);
 
   const dispatch = useDispatch();
+
+
+
   // **************************************
 
   const getData = async () => {
@@ -82,21 +102,53 @@ export const Nav1 = () => {
       body: JSON.stringify(formValues),
     });
     let r = await res.json();
+
+
+
     // here i am receiving email, user I'D and password
+
+
+
     console.log("check email is there or not", r);
+
+
+
+
     //   ******************* Bals code ********
+
+
+
+
     console.log("user", r._id);
     saveData("userId", r._id);
 
     dispatch(getID(r._id));
     console.log("userId:", userId);
+
+
+
+
     // **************************************
+
+
+
 
     alert("Login sucessfully");
 
     setloginSucess(loginSucess + 1);
-    // setNavbar(true);
+
+
+
+
+
+    
   };
+
+
+
+
+
+
 
   const validate = (values) => {
     const errors = {};
@@ -142,15 +194,23 @@ export const Nav1 = () => {
               </span>{" "}
               | <span onClick={showModal}>Sign up</span>
             </p>
-            {/* <Link to={"/checkout/cart"}>
-              {" "}
-              <MdCardTravel className="inline-block ml-2 text-xl cursor-pointer" />
-            </Link> */}
+           
             <a href="/checkout/cart" className="text-black"><MdCardTravel className="inline-block ml-2 text-xl cursor-pointer" /></a>
           </div>
         </div>
       </div>
-      {/* sign up */}
+
+
+
+
+      {/* 
+      sign up 
+      */}
+
+
+
+
+
       <Modal
         title="SIGNUP"
         visible={isModalVisible}
@@ -161,7 +221,30 @@ export const Nav1 = () => {
       >
         <div className="w-full py-8">
           <div className="w-11/12 ml-2">
-            {/* signUp form */}
+
+
+
+
+
+            {/* 
+            
+            
+            
+            signUp form 
+            
+            
+            
+            
+            */}
+
+
+
+
+
+
+
+
+
             <form onSubmit={handleSubmit}>
               <label>
                 <h4 className="font-bold ml-12">for a quicker checkout</h4>
@@ -225,7 +308,25 @@ export const Nav1 = () => {
           </div>
         </div>
       </Modal>
-      {/* login */}
+
+
+
+
+      {/* 
+      
+      
+      
+      login 
+      
+      
+      
+      */}
+
+
+
+
+
+
       {loginBtn ? (
         <div
           className="w-4/12 py-8 m-auto fixed z-50 bg-white flex flex-col"
@@ -246,7 +347,23 @@ export const Nav1 = () => {
           </div>
           <hr />
           <div className="w-11/12 ml-2 mt-10">
-            {/* login form */}
+
+
+
+
+            {/* 
+            
+            
+            login form 
+            
+            
+            
+            */}
+
+
+
+
+            
             <form onSubmit={handleSubmitss}>
               {loginSucess == 0 ? (
                 <h2 className="text-red-600 ml-8">
