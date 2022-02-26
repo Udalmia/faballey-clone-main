@@ -19,9 +19,9 @@ Prerequisites
 - Clone the repository
   Git Clone - https://github.com/Akhilg-02/faballey-clone-main.git
 
-```bash
-<!--  git clone https://github.com/Sachi4496/faballey-clone.git -->
-```
+<!-- ```bash
+  git clone https://github.com/Sachi4496/faballey-clone.git 
+```-->
 #### `npm i`
 #### `npm run server`
 
