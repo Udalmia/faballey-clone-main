@@ -1,4 +1,16 @@
-
+import { FaChevronRight } from "react-icons/fa";
+import { MdCardTravel } from "react-icons/md";
+import Faballeynav from "../images/logo.png";
+import Indya from "../images/indya.png";
+import "antd/dist/antd.min.css";
+// import { Input } from "antd";
+import React, { useState, useEffect } from "react";
+import { Modal } from "antd";
+import { useDispatch, useSelector } from "react-redux";
+import { getID } from "../../../Redux/action";
+import { saveData } from "../../../utils/localStorage";
+export const Nav1 = () => {
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
     setIsModalVisible(true);
