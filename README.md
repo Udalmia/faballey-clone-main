@@ -4,8 +4,7 @@
 ## About FabAlley:
 FabAlley is an online fashion store. Launched in 2012, FabAlley covers everything from the glitziest party dresses, relaxed vacation wear, trendy casual wear to statement accessories. The brand’s products are inspired from trends around the world - global runway and fast fashion trends that have found favor in India and Internationally. Faballey understands the evolving western-wear needs unique to Indian women and focuses on providing 360 degree wardrobe solutions covering all facets and occasions.
 
-![faballey](https://user-images.githubusercontent.com/53556482/153560974-2ee2f508-b57a-4af8-87be-17139579613d.png)
-
+![faballey](https://i.ibb.co/v3Z5v65/fabbbbbbbbbb1.png)
 ## Demo
 <!-- ![unit4Short gif](https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif) -->
 
