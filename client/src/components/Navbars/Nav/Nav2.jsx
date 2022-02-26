@@ -1,4 +1,16 @@
-
+import Faballeynav2 from "../images/faballey2ndnavbar.png";
+import { FaSistrix } from "react-icons/fa";
+import { useState } from "react";
+export const Nav2 = () => {
+    const [show, setShow] = useState(false);
+    const [show2, setShow2] = useState(false);
+    const [show3, setShow3] = useState(false);
+    const [show4, setShow4] = useState(false);
+    const [show5, setShow5] = useState(false);
+    const mouseEnter = () => {
+        setShow(true);
+    }
+    const mouseLeave = () => {
         setShow(false);
     }
     return <>
