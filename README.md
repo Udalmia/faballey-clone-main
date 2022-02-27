@@ -61,7 +61,7 @@ Prerequisites
 - #### Node
 - #### Express
 - #### Mongodb
-- #### Nodemailer
+
 
 ### Frontend
 - #### React JS
