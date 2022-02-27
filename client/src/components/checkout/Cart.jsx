@@ -1,9 +1,8 @@
 import { useEffect } from "react";
 import { CartNavbar } from "./CartNavbar";
 import React from "react";
-//import { MdDelete } from "react-icons/md";
 import { BsFillPlusCircleFill } from "react-icons/bs";
-//import { useParams } from "react-router";
+import { useParams } from "react-router";
 import "./Cart.css"
 import { useState } from "react";
 import { loadData } from "../../utils/localStorage";
@@ -30,58 +29,31 @@ export const Cart = () => {
   console.log("userId:", userId);
 
   useEffect(() => {
-    const getProducts = () => {
-      // try {
-         fetch(`https://cryptic-oasis-92145.herokuapp.com/users/${userId}`)
-           .then((res) => {res.json()
-            console.log("hello" ,res)
-          })
-           
-           .then((data) => {
-             console.log("data:", data);
-             let tem = data.email.split("@");
-             console.log("tem:", tem);
-             setName(tem[0]);
-             setCartList(data.cartItems);
-   
-             
-           });
-       //} catch (error) {
-       //   console.log("error:", error);
-       // }
-     };
     getProducts();
 
   }, []);
 
   
 
-  // const getProducts = () => {
-  //  // try {
-  //     fetch(`https://cryptic-oasis-92145.herokuapp.com/productDetail/${_id}`)
-  //       .then((res) => res.json())
-  //       .then((data) => {
-  //         console.log("data:", data);
-  //         let tem = data.email.split("@");
-  //         console.log("tem:", tem);
-  //         setName(tem[0]);
-  //         setCartList(data);
-
-          
-  //       });
-  //   //} catch (error) {
-  //   //   console.log("error:", error);
-  //   // }
-  // };
+  const getProducts = () => {
+    try {
+      fetch(`https://cryptic-oasis-92145.herokuapp.com/users/${userId}`)
+        .then((res) => res.json())
+        .then((data) => {
+          console.log("data:", data);
+          let tem = data.email.split("@");
+          console.log("tem:", tem);
+          setName(tem[0]);
+          setCartList(data);
+        });
+    } catch (error) {
+      console.log("error:", error);
+    }
+  };
 
   return (
     <div>
       <CartNavbar />
-      <div className="red-clr-box">
-        Score free shipping on orders above INR 3000
-      </div>
-
-      
       <div className="main-content w-9/12">
         <div className="left-side w-2/3">
           <div className="top-heading">
@@ -168,7 +140,7 @@ export const Cart = () => {
               <div>
                 <h2>Donation</h2>
                 <p>
-                  Donation Extra 10 (This donation is towards NGO Ssrishti that
+                  Extra ₹10 (This donation is towards NGO Ssrishti that
                   is providing food and hygiene essentials to migrant labors
                   during the COVID-19 lockdown)
                 </p>
@@ -200,14 +172,14 @@ export const Cart = () => {
                   <tr className="border-y-2	">
                     <td>
                       <td className="t-data lefting">Subtotal</td>
-                      <td className="t-data righting">₹{price}</td>
+                      <td className="t-data righting">₹1600</td>
                     </td>
                   </tr>
 
                   <tr className="border-y-2	">
                     <td>
                       <td className="t-data lefting">Total</td>
-                      <td className="t-data righting">₹{price}</td>
+                      <td className="t-data righting">₹1600</td>
                     </td>
                   </tr>
                 </tbody>
@@ -232,3 +204,42 @@ export const Cart = () => {
 
 
 //https://cryptic-oasis-92145.herokuapp.com/users/${userId}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className="red-clr-box">
+Score free shipping on orders above INR 3000
+</div> */}
